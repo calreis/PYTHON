@@ -1,0 +1,3 @@
+''' Neste compilado irei colocar minha jornada em Python '''
+print('Hello World') #inprint in screen (forma de imprimir texto ao usuário no python)
+# Acima está uma variável primitiva do tipo string
