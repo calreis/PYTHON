@@ -1,0 +1,12 @@
+# Tipos de Dados em Python 
+# nesta pequena formula do IMC não foi incluído valores do tipo interger.
+
+name = 'Claudemir' # Uma string é um tipo por referência, então já ocupará 4 ou 8 bytes (se é 32 ou 64 bytes) só para representar o ponteiro para o objeto real. 
+altura = 1.60 # Dados do tipo ponto flutuante.
+peso = 78.00 # Dados do tipo ponto flutuante.
+imc = peso/altura**2
+
+linha_1 = f'{name} tem de {altura} altura e pesa {peso:.2f}'
+
+print(name,'tem de altura:',altura,'e pesa:', peso)
+print('pesa',peso, 'e seu IMC é de:', imc:.2f); # não há necessidade de colocar ponto e virgula (;) no final das programas igual na linguagem C.
