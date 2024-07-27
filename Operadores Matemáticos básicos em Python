@@ -1,0 +1,8 @@
+# Operadores Matemáticos básicos em Python
+
+print(1+1) # Operação de soma
+print(2-1)  # Operação de subtração
+print(2*3) # Operação de multiplicação
+print(6/2) # Operação de divisão
+print(13%2) # Operação modulo da divisão == ao resto da divisão
+print(12//2) # Operação quociente da divisão ou seja parte inteira
