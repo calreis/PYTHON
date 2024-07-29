@@ -1,0 +1,18 @@
+# Estruturas condicionais
+
+
+# x = 1
+# y = 3
+
+''' O if(se) é uma condicional ou seja para que algo ocorra certa condição precissa ser cumprida.'''
+''' if x < 10:
+    print('Menor') '''
+
+numero = int(input('Digite um valor inteiro '))
+
+if numero >= 10: # a condição sera verdade se o numero for maior
+    print('Verdade') 
+    
+else:
+    print('Mentira') # a condição sera mentira se o numero for menor
+
