@@ -1,0 +1,12 @@
+# Variáves e Constantes
+''' em Python diferente de outras linguagens não tem uma constant sintaxe específica para Constantes, Em função disso criou-se um consenso da utilização de letras maiúsculas nas funções e letras minusculas em variáveis.
+'''
+''' constantes não podem ser alteras ao longo do código diferente das vaviáveis que podem assumir vários valores ao longo do código.'''
+
+VALOR_DE_PI = 3.14 # Constante
+area = float(input("Digite a área do circulo"))
+
+formula_area = VALOR_DE_PI * area*2 # variavel.
+# acima variável que guarda a formula da área do circulo.
+
+print(f'A área do circulo {area} é {formula_area:.2f}')
