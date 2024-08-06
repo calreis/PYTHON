@@ -1,0 +1,18 @@
+# Calc atendimento VLA
+''' esta calculadora simples foi criada para calcular o tempo de atendimento das equipes VLA's e VLP's d APH da VITALMED ou qualuqer outra empresa de urgência e emergência.'''
+
+def time_arrival():
+    TIME_ASSITENCE = 50 #50min
+
+    live_time = int(input('Digite a hora atual '))
+
+    time_desloc = int(input('Digite o tempo de deslocamento '))
+
+    desloc = live_time+time_desloc
+
+    arrival = live_time+time_desloc+TIME_ASSITENCE
+
+    print(f'A equipe irá chegar na residência às {desloc}')
+    print(f'A previsão do termino do atendimento é de {arrival}')
+    
+time_arrival()
