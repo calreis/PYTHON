@@ -1,0 +1,24 @@
+numeros = [1,324,23,9,90]
+
+# print(numeros[0]) # acessando uma lista pelo indice
+
+# numeros[0] = 2 # para mudor o valor do indice [0] que era o número 1.
+
+# numeros.append(245354) # adiciona um elemente após o último indice da lista.
+
+# numeros.extend([78956,74]) # # extende uma lista na verdade é criado uma lista nova e "contatenada a antiga".
+
+# numeros.insert(0,289785) # adiciona um elemento a partir do indice, más sem apagar o antigo.
+
+# numeros.pop() # apaga o último elemento da lista
+
+# numeros.remove(324) # remove um item da lista escolhido.
+
+# numeros.clear() # limpa a lista e seus elementos.
+
+# len('lista') # diz quantos elementos tem em uma lista
+
+print(len(numeros))
+
+
+
