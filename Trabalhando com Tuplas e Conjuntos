@@ -1,0 +1,42 @@
+# TRABALHANDO COM TUPLAS
+num_tupla_1 = (1, 1, 3, 7) # tuplas e uma lista que elementos que não podem ser alterados, porém pode haver itens duplicados.
+
+
+# print(num_tupla_1[0]) # acessando um iten atraves do indice "0".
+
+# obs: não é possível mudar um elemente de uma tupla
+
+# num_tupla_1[0] = 12
+
+
+# TRABALHADO COM CONJUNTOS
+# Obs: Um conjunto é uma lista não ordenada de itens que não podem contem valores repetidos.
+
+conjunto_num = {1, 2, 3, 7}
+
+print(conjunto_num)
+print(1 in conjunto_num) # verificar se um elemente está em um conjunto.
+print(1320 in conjunto_num) # Elemento não consta no conjunto.
+
+# Adicionando elementos ao conjunto
+
+conjunto_num.add(1320)
+
+print(conjunto_num) # O elemente adicionado aparece em qualquer indice da lista não há ordem de adição igual a lista com o comando append.
+
+# REMOVENDO ELEMENTOS AO CONJUNTO
+
+conjunto_num.remove(1320)
+
+print(conjunto_num) # O elemento será deletado a partir do iten escolhido.
+
+
+# Conjunto vázio
+conjunto_num.clear()
+print(conjunto_num)
+
+# Excluir um conjunnto
+
+del conjunto_num
+
+pint(conjunto_num) # O conjunto não irá aparecer pois foi exlcuído.
