@@ -18,7 +18,9 @@ numeros = [1,324,23,9,90]
 
 # len('lista') # diz quantos elementos tem em uma lista
 
+# numeros.reverse() # coloca a lista ao contrário
+
+numeros.sort() # Ordena uma lista
+
+print(numeros)
 print(len(numeros))
-
-
-
