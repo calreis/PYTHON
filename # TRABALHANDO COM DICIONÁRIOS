@@ -16,3 +16,66 @@ dic_contatos = {'Cal': 71981689473, 'CR-CRED': 33053384, 'Ademiro': 33587894}
 # del dic_contatos['CR-CRED'] # Deletar um chabe com seu elemento de um dicionário.
 
 dic_contatos.update({'Virginia' : 7198248159})
+
+# ATUALIZÇÃO 1.0.1
+
+# TRABALHANDO COM DICIONÁRIOS
+
+dic_contatos = {'Cal':71981689473, 'CR-CRED':7133053384,'Daiane':759816532}
+
+# Acessando um valor através da chave
+# print(dic_contatos['Cal'])
+
+# Acessando um valor através da chave atraves da função 'get''.
+# print(dic_contatos.get('Cal'))
+
+dic_contatos['Cal'] = 71981679482
+
+# Adcionar uma propriedade a uma chave em específico. 
+# print(dic_contatos['Cal'])
+
+# SELECIONAR AS CHAVES DE UM DICIONÁRIO
+# print(dic_contatos.keys())
+
+# SELECIONAR OS ITEMS DE UM DICIONÁRIO
+# print(dic_contatos.items())
+
+# COPIANDO UM DICIONÁRIO
+dic_contatos2 = dic_contatos.copy()
+
+dic_contatos['Cal'] = 71981689473
+
+# print(dic_contatos)
+# print(dic_contatos2)
+
+# REMOVER ITENS PELO MÉTODO 'del'
+
+# del dic_contatos2['CR-CRED']
+
+# print(dic_contatos2)
+
+# REMOVENDO ITENS PELO MÉTODO 'pop'
+# dic_contatos.pop('Cal')
+
+# print(dic_contatos)
+
+# REMOVER UM DICIONÁRIO
+
+# dic_contatos.clear()
+
+# print(dic_contatos)
+
+
+# NÚMERO DE PROPIEDADES DE UM DICIONÁRIO
+
+print(len(dic_contatos))
+
+
+# LISTA DE DICIONÁRIOS
+
+pessoas = [
+    {'nome': 'Claudemir', 'idade': 36},
+    {'nome': 'Daiane', 'idade': 26}
+ ]
+
+print(pessoas[0]['nome'])
