@@ -1,0 +1,18 @@
+# DICIONÁRIO EM PYTHON 
+# O dicionário de forma groceira é uma lista que permite salvar dados em pares do tipo 'chave' : 'valor'
+
+dic_contatos = {'Cal': 71981689473, 'CR-CRED': 33053384, 'Ademiro': 33587894}
+
+
+# print(dic_contatos['Cal']) # Acessando um valor pela Chave.
+
+# print('Cal' in dic_contatos) # VERIFICANDO SE UMA CHAVE CONSTA EM UM DICIONÁRIO.
+
+# print('Belame' in dic_contatos) # CHAVE NÃO CONSTA NO DICIONÁRIO.
+
+
+# dic_contatos['Cal'] = 71981413905 # ATERAR VALORES DE UMA CHAVE 
+
+# del dic_contatos['CR-CRED'] # Deletar um chabe com seu elemento de um dicionário.
+
+dic_contatos.update({'Virginia' : 7198248159})
