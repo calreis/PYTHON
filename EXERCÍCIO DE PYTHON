@@ -1,0 +1,167 @@
+''' Tipos de Dados em Python
+'''
+
+'''nome = 'Claudemir' # Dado do tipo String
+ano = int(1988) # Dado do tipo String
+valor = float(19.99)
+'''
+
+'''print(nome)
+print(ano)
+print(valor)
+'''
+
+# Exercício 4
+
+# print("olá Mundo!!!")
+
+# Exercício 5
+
+# nome = input("Qual o seu nome? ")
+
+# Exercício 6
+
+# num1 = 1987
+# print(type(num1),num1)
+
+# Exercício 7
+
+# num2 = input('Digite um numero: ')
+
+# print(f'O numero digitado foi {num2}')
+
+# Exercício 8
+
+''' num3 = input('Digite um número: ')
+convert_num3 = float(num3)
+
+print(type(convert_num3))
+print(convert_num3)
+'''
+
+# Exercício 9
+'''
+nome = ['Claudemir', 'Daiane', 'Sófia', 'Virgínia', 'Ademiro']
+print(nome)'''
+
+# Exercício 10
+
+'''
+nome = ['Claudemir', 'Daiane', 'Sófia', 'Virgínia', 'Ademiro']
+print(len(nome))
+print(nome)
+'''
+'''
+num1 = 52
+num2 = 106
+
+print(num1 + num2)
+'''
+
+# Exercício 11
+
+'''num1 = 52
+num2 = 106
+soma = num1+num2
+
+print(soma)
+'''
+
+# Exercício 13
+'''
+num1 = 52
+num2 = 106
+
+print(num1 - num2)
+'''
+
+# Exercício 14
+'''
+num1 = 52
+num2 = 106
+
+print(num1 * num2)
+print(num1 / num2)
+'''
+
+# Exercício 15
+'''
+num1 = 51
+
+print(num1 ** 8)'''
+
+# Exercício 16
+'''
+num1 = int(input('Digite o primeiro numero: '))
+num2 = int(input('Digite o segundo numero: '))
+
+soma = num1 + num2
+subtracao = num1 - num2
+mult = num1 * num2
+div = num1 / num2
+
+print(f'{soma}')
+print(f'{subtracao}')
+print(f'{mult}')
+print(f'{div}')'''
+
+# Exercício 17
+
+'''
+num1 = 100
+num2 = 89
+
+print(num1 > num2)
+
+# ou
+if num1 > num2:
+    print(f'O número {num1} é maior')
+else:
+    print(f'O número {num2} é maior')'''
+
+# Exercício 18
+'''
+num1 = 100
+num2 = 89
+
+
+print(num1 == num2)'''
+
+# Exercícios 19
+'''
+num1 = 100
+num2 = 89
+
+
+print(num1 != num2)'''
+
+# Exercícios 20
+'''
+num1 = 100
+num2 = 89
+
+
+print(num1 <= num2)'''
+
+# Exercício 21
+
+'''
+num1 = 100
+num2 = 89
+
+
+print(num1 <= 100 and num2 == 100)'''
+
+# Exercício 22
+'''
+num1 = 100
+num2 = 89
+
+
+print(num1 <= 100 or num2 == 100)'''
+
+num1 = 100
+lista1 = [10, 100, 1000, 10000, 100000]
+
+print(num1 in lista1) # O operador 'IN' verifica se um valor consta em uma variável ou objeto
+
