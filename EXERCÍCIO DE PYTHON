@@ -165,3 +165,18 @@ lista1 = [10, 100, 1000, 10000, 100000]
 
 print(num1 in lista1) # O operador 'IN' verifica se um valor consta em uma variável ou objeto
 
+# ATIVIDADE 23
+num1 = int(input('Digite um número'))
+num2 = int(input('Digite o segundo número'))
+
+fim_program = 'Fim do programa'
+
+
+if num1 > num2:
+    print(f'O primeiro número que é: {num1} é maior que o segundo número digitado que é: {num2}')
+
+else:
+    print(f'O segundo numero que é: {num2} é maior que o número {num1}')
+
+print(fim_program)
+
