@@ -180,3 +180,48 @@ else:
 
 print(fim_program)
 
+
+# Atividade 26
+'''
+nome = 'Nikola Tesla'
+
+for letra in nome:
+    print(letra)
+'''
+
+# Atividade 27
+'''
+lista_compras = ['arroz', 'feijão', 'abobora', 'macarrao', 'biscoito', 'carne', 'miojo', 'coentro']
+
+for items in lista_compras:
+    print(items)
+'''
+# ATIVIDADE 28
+
+'''
+inicio = int(input('Digite o numero do início'))
+fim = int(input('Digite o numero final'))
+
+for num in range(inicio,fim + 1):
+    print(num)
+'''
+
+# ATIVIDADE 29
+''' Programa que realiza a contagem de 0 a 20, exibindo apenas números pares'''
+
+'''
+for num in range(0, 21):
+    if num % 2 == 0:
+        print(num)
+'''
+
+
+# Atividade 30
+termo = int(input("Digite o primeiro termo: "))
+
+razao = int(input("Digite a razão: "))
+
+pa = termo + (20-1) * razao
+
+for i in range(termo, pa + razao,razao):
+    print(i)
