@@ -1,0 +1,27 @@
+''' FAZER UM PROGRAMA PARA LEAR UMA DURAÇÃO DE TEMPO EM SEGUNDO, DAÍ IMPRIMIR NA TELA ESTA DURAÇÃO NO FORMATO EM HORAS:MINUTOS:SEGUNDO. '''
+
+'''
+1 min == 60seg
+
+1h == 60min
+
+60*60
+
+1h == 3600
+'''
+
+UM_SEGUNDO_MIN = 60
+
+UMA_HORA_MIN = 60
+
+UMA_HORA_SEG = 3600
+
+
+hora = int(input('Digite a quantidade de horas: '))
+
+conversao_minutos = hora * UMA_HORA_MIN
+
+conversoa_minutos_seg = hora * UMA_HORA_SEG
+
+print(f'A conversão de {hora}h em minuots fica {conversao_minutos}min')
+print(f'A conversão de {hora}h pra segundos {conversoa_minutos_seg}seg')
