@@ -1,0 +1,18 @@
+''' Fazer um programa para calcular o troco no processo de pagamento de um produto de uma mercearia. O programa deve ler o preço unitário do produto, a quantidade de unidades campradas deste produto, e o valor em dinheiro dado pelo cliente. Seu programa deve mostrar o valor do troco a ser devolvido ao cliente. Se o dinheiro dado pelo cliente não for suficiente, mostar uma mensagem informando o valor restante conforme exemplo.'''
+
+
+dinheiro_dado = float(input('Pagamento dado pelo cliente '))
+
+quantidade = int(input('Quantidade de produtos pegos pelo cliente '))
+
+valor = float(input('Valor unitário do produto pego pelo cliente '))
+
+valor_a_pagar = float(quantidade * valor)
+
+if dinheiro_dado < valor_a_pagar:
+    diferenca = dinheiro_dado - valor_a_pagar
+    print(f'O valor dado e insuficiente faltam R${diferenca:.2f}')
+    
+elif dinheiro_dado > valor_a_pagar:
+    diferenca2 = dinheiro_dado - valor_a_pagar
+    print(f'Seu troco é de R$ {diferenca2:.2f}')
