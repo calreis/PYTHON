@@ -1,0 +1,13 @@
+'''  Uma operadora cobra R$ 50.00 por minuto básico que dá direito a 100min de telefone. Cada minuto que exceder a fraquia de 100min custa R$ 2.0. Fazer um programa para ler a quantidade de minutos de pessoa consumiu, daí mostrar o valor a ser pago. 
+'''
+
+minuto_consumido = int(input('Digite a quantidade de minutos consumida '))
+
+PLANO_BASICO = float(50.00)
+
+if minuto_consumido > 100:
+    excedido = (minuto_consumido-100) * 2 + PLANO_BASICO
+    print(f'Valor a ser pago é R${excedido:.2f}')
+
+else:
+    print(f'O valor a ser pago é {PLANO_BASICO:.2f}')
