@@ -1,0 +1,34 @@
+Problema "quadrante" (adaptado de URI 1115)
+Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no 
+sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence (Q1, Q2, Q3 ou Q4). O 
+algoritmo será encerrado quando pelo menos uma de duas coordenadas for NULA (nesta situação sem 
+escrever mensagem alguma). 
+
+
+
+x = float(input('Digite a coodenada x: '))
+
+
+y = float(input('Digite a coodenada y: '))
+
+
+while x and y != 0:
+    if (x > 0) and (y > 0):
+        print('Qd 1')
+
+    elif (x < 0) and (y > 0):
+        print('Qd 2')
+
+    elif (x < 0) and (y < 0):
+        print('Qd 3')
+
+    else:
+        print('Qd 4')
+    
+    x = float(input('Digite a coodenada x: '))
+
+
+    y = float(input('Digite a coodenada y: '))
+
+
+print('Minha pica poha não leu que tem que ser dirente de zero os dois')
