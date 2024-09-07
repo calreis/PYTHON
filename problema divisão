@@ -1,0 +1,16 @@
+n = int(input('Digite o número de casos que deseja resolver '))
+'''
+x = int(input('Digite o primeiro valor '))
+
+y = int(input('Digite o primeiro valor '))
+'''
+
+for i in range(0,n):
+    x = int(input('Digite o primeiro valor '))
+    y = int(input('Digite o primeiro valor '))
+    if x == 0 or y == 0:
+        print('Impossível dividir')
+
+print(f'A razão de {x} / {y} = {x / y}' )
+
+print('Fim do programa! ')
