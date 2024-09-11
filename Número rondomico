@@ -1,0 +1,24 @@
+import random
+
+print('Seja bem vindo(a)!')
+
+numero_secreto = random.randint(1,100)
+nome = input('Digite seu nome: ')
+palpite = int(input('Digite seu palpite: '))
+contador = 0
+restante = 7
+while palpite != numero_secreto:
+  contador = contador + 1
+  restante = restante-1
+  if contador >=7:
+    print('Número de tentativas esgotadas! ')
+    break
+  print('Numero Errado tente novamente!')
+  palpite = int(input('Digite mais um palpite: '))
+  print(f'Voce ainda tem tentativas {restante}')
+
+  if palpite == numero_secreto:
+    print('Ganhou')
+
+print('fim do programa')
+
